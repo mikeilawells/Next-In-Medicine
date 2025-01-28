@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  color: black;
+  background-color: azure;
+}
+p {
+  font-size:15px;
+  color: black;
+  font-family: monospace;
+  margin: 10px;
+}
+h1 {
+  font-size:30px;
+  color: black;
+}
+a {
+  letter-spacing: 1px;
+  margin: 10px;
+}
+a:hover {
+  color: #fe5dbe;
+  font-size: 24px;
+  text-decoration-style: wavy;
+  }
+a:active {
+  font-size: 24px;
+  color: crimson;
+}
+img {
+  display: flex;
+  border-radius:20;
+  border-color:black;
+  width: 300px;
+  margin: 10px;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;
+  height: 250px;
+
+}
+/* flex style to create recipe cards*/
+
+.info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+ 
+}
